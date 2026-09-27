@@ -46,7 +46,7 @@ Nesta seção discutimos como identificar o problema, definir requisitos e avali
 
 ### 📖 Estudo de caso — Power Meter
 
-Um dos exemplos apresentados no minicurso é o desenvolvimento de um **Power Meter de código aberto**, utilizado para discutir a possibilidade de desenvolver instrumentação científica de menor custo.
+Um dos exemplos apresentados no minicurso é o desenvolvimento de um **Power Meter Acessivel**, denominado AYR, utilizado para discutir a possibilidade de desenvolver instrumentação científica de menor custo.
 
 > 💡 **Ideia central:** o objetivo não é substituir indiscriminadamente equipamentos comerciais, mas avaliar tecnicamente quando uma solução aberta pode atender aos requisitos de uma determinada aplicação.
 
@@ -54,8 +54,7 @@ Um dos exemplos apresentados no minicurso é o desenvolvimento de um **Power Met
 
 **Veja também:**
 
-* 🌎 [GOSH — Global Open Science Hardware](https://openhardware.science/)
-* 📚 [Estudo de caso e referências](referencias/estudos_de_caso.md)
+* 📚 [AYR](https://iopscience.iop.org/article/10.1088/1361-6501/ad4f04/meta)
 
 ---
 
@@ -152,10 +151,7 @@ O projeto combina:
 * controle de movimento;
 * requisitos físicos do experimento.
 
-### 📁 Arquivos do projeto
-
-➡️ [Acessar o projeto Z-Scan](08_exemplos/z_scan/)
-
+* 📚 [Artigo Z-Scan](https://ieeexplore.ieee.org/document/53394)
 ---
 
 ## 🧩 Projeto híbrido
@@ -245,10 +241,9 @@ A simulação é uma ferramenta de engenharia. **A validação experimental cont
 
 ### 🛠️ Ferramentas
 
+* [Fusion](https://www.autodesk.com/products/fusion-360/overview)
 * [Ansys](https://www.ansys.com/)
 * [FreeCAD](https://www.freecad.org/)
-* [Fusion](https://www.autodesk.com/products/fusion-360/overview)
-
 ---
 
 # 6. 🖨️ Fabricando no Laboratório
@@ -302,8 +297,6 @@ Considere:
 * tolerâncias;
 * anisotropia mecânica.
 
-📁 [Guia de FDM](05_fabricacao/fdm.md)
-
 ---
 
 # 7. 🧪 SLA / Impressão em Resina
@@ -326,8 +319,6 @@ Alguns aspectos importantes:
 * exposição à luz;
 * pós-processamento;
 * segurança no manuseio.
-
-📁 [Guia de SLA](05_fabricacao/sla.md)
 
 > ⚠️ Parâmetros específicos de materiais, como formulações, misturas de resinas ou resistência química, devem ser tratados com referências experimentais ou dados do fabricante. Evite generalizar uma proporção ou propriedade para todas as resinas.
 
@@ -373,8 +364,6 @@ Por isso:
 * [UltiMaker Cura](https://ultimaker.com/software/ultimaker-cura/)
 * [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/)
 
-📁 [Guia de projeto para FDM](05_fabricacao/fdm.md)
-
 ---
 
 # 9. 📦 Documentação e Reprodutibilidade
@@ -412,27 +401,6 @@ projeto/
 ├── imagens/
 └── README.md
 ```
-
----
-
-# 🔬 Projetos e exemplos
-
-Os exemplos apresentados no minicurso serão organizados aqui como estudos de caso independentes.
-
-| Projeto                       | Área               | Status                |
-| ----------------------------- | ------------------ | --------------------- |
-| [Z-Scan](08_exemplos/z_scan/) | Óptica / Automação | 🚧 Em desenvolvimento |
-| Power Meter                   | Instrumentação     | 📖 Estudo de caso     |
-| Outros projetos               | —                  | 🔜 Em construção      |
-
----
-
-# 🔗 Recursos úteis
-
-Uma lista mais completa de ferramentas, fabricantes, bibliotecas CAD, softwares e referências está disponível em:
-
-👉 **[📚 Recursos e referências](referencias/recursos.md)**
-
 ---
 
 # 📚 Referências
@@ -468,6 +436,8 @@ A ideia é construir uma base de conhecimento aberta para quem utiliza fabricaç
 **Lucas H. P. Silva**
 
 Engenharia Física — Universidade Federal de Goiás
+[Linkedin](https://www.linkedin.com/in/lucas-h-p-silva-0a94a3174/)
+[ResearchGate](https://www.researchgate.net/profile/Lucas-Silva-195?ev=hdr_xprf)
 
 📍 Goiânia, Brasil
 
